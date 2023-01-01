@@ -37,16 +37,18 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #DAE8E7;
+
 }
 
 .container {
     max-width: 35rem;
     width: 80%;
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .container__title {
-    margin: 2rem 0;
+    margin-bottom: 1rem;
     letter-spacing: 10px;
     text-align: center;
 }
