@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVinfo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="container__title">TVinfo</h1>
+            <form class="container__form" name="query">
+                <div class="container__input">
+                    <input class="input__txt" type="text" name="" id="" placeholder="Digite algum seriado...">
+                    <button class="input__btn"><img class="input__icon" src="material-symbols_search.svg" alt=""></button>
+                </div>
+            </form>
+            <h1 class="content__title"></h1>
+            <div class="container__content">
+                <img class="content__img" src="" alt="">
+                <div class="content__container content__description">
+                    <p class="description__output"></p>
+                </div>
+                <div class="content__container content__list">
+                    <ul class="content__list-items">
+                        <li class="item content__web-channel"></li>
+                        <li class="item content__status"></li>
+                        <li class="item content__genre"></li>
+                        <li class="item content__created"></li>
+                        <li class="item content__rating"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
