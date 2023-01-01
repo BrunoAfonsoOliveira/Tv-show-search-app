@@ -9,7 +9,7 @@ const contentContainer = document.querySelectorAll('.content__container');
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
     for (let container of contentContainer) {
-        container.classList.toggle('display')
+        container.classList.add('display')
     }
     const searchTerm = inputTxt.value;
     const res = await axios.get(`https://api.tvmaze.com/singlesearch/shows?q=${searchTerm}`);
