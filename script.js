@@ -17,6 +17,8 @@ form.addEventListener('submit', async (e) => {
     img.src = res.data.image.medium;
     const descFormat = res.data.summary;
     description.innerText = stripHtml(descFormat);
+
+    //Insere as informações em cada item
     for (let item of listItems) {
         if (item.classList.contains('content__web-channel')) {
             if (res.data.webChannel) {
